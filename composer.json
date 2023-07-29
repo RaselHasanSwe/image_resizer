@@ -12,7 +12,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "intervention/image": "dev-master"
+        "intervention/image": "dev-master4343434343"
     },
     "autoload": {
         "psr-4": {
