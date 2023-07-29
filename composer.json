@@ -1,0 +1,29 @@
+{
+    "name": "raselswe/image-resizer",
+    "description": "Resize JPEG, JPG, PNG, WEBp, any other image to specfice dimention and extention",
+    "keywords": ["Php", "laravel", "image resize", "laravel image resize", "laravel image croper"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rasel Hasan",
+            "email": "rasel.laravel@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "intervention/image": "^3.0@alpha"
+    },
+    "autoload": {
+        "psr-4": {
+            "RaselSwe\\ImageResize\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RaselSwe\\ImageResize\\ImageServiceProvider"
+            ]
+        }
+    }
+}
